@@ -1,3 +1,58 @@
-.img-card{
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: start;
+    padding-left: 22px;
+}
+
+.structure-card {
+    background-color: black;
+    border: solid 2px red;
+    border-radius: 15px;
+    width: 280px;
+    margin: 20px;
+    display: grid;
+    text-align: center;
+    padding: 1em;
+    font-size: 10px;
+}
+
+.img-card {
+    justify-self: center;
     height: 300px;
+    width: 90%;
+}
+
+.title-product {
+    font-size: 25px;
+    color: white;
+}
+
+.description-product {
+    color: white;
+}
+
+.price-product {
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+.footer-card {
+    gap: 1em;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+}
+
+button {
+    height: 3em;
+    width: 40%;
+    border-radius: 5px;
+    transition: all 1s;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
 }
