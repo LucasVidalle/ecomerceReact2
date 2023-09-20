@@ -1,0 +1,67 @@
+.table-view {
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    border: solid 3px teal;
+    align-items: center;
+}
+
+.title-table-div {
+    border-right: solid 3px teal;
+    height: 100%;
+}
+
+.title-table {
+    height: 100%;
+    margin: 0px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.description-table-div {
+    border-right: solid 3px teal;
+    height: 100%;
+}
+
+.description-table {
+    height: 100%;
+    margin: 0px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.price-table-div {
+    border-right: solid 3px teal;
+    height: 100%;
+}
+
+.price-table {
+    height: 100%;
+    margin: 0px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.image-table-div {
+    height: 100%;
+}
+
+.img-table {
+    width: 75px;
+    height: 100%;
+    margin: 0px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}

@@ -3,14 +3,15 @@
     flex-wrap: wrap;
     gap: 5px;
     justify-content: start;
-    padding-left: 22px;
+    padding-left: 45px;
 }
 
 .structure-card {
     background-color: black;
-    border: solid 2px red;
+    border: solid 2.5px teal;
     border-radius: 15px;
-    width: 280px;
+    width: 380px;
+    height: auto;
     margin: 20px;
     display: grid;
     text-align: center;
@@ -21,21 +22,28 @@
 .img-card {
     justify-self: center;
     height: 300px;
-    width: 90%;
+    width: 80%;
 }
 
 .title-product {
     font-size: 25px;
     color: white;
+    font-weight: bold;
 }
 
 .description-product {
     color: white;
+    padding: 0px 30px;
+    font-size: 17px;
 }
 
 .price-product {
-    font-size: 25px;
-    color: whitesmoke;
+    font-size: 35px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
 }
 
 .footer-card {
@@ -45,14 +53,14 @@
     justify-content: center;
 }
 
-button {
+.buttons-card {
     height: 3em;
     width: 40%;
     border-radius: 5px;
     transition: all 1s;
 }
 
-button:hover {
-    background-color: red;
+.buttons-card:hover {
+    background-color: teal;
     color: white;
 }

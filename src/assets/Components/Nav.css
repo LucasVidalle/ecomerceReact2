@@ -1,9 +1,28 @@
 .nav-bar {
-    background-color: black;
+    background-color: teal;
     text-align: center;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav-bar-title {
+    margin: 0px;
     color: white;
     font-size: 30px;
+}
+
+.change-button {
+    background-color: black;
+    color: white;
+    width: 10%;
+    border: solid 1px white;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.change-button:hover {
+    background-color: white;
+    color: black;
+    border: solid 1px black;
 }
