@@ -1,20 +1,27 @@
+.container-tables {
+    margin: 40px 40px 0px 40px;
+}
+
 .table-view {
-    margin: 40px;
+    background-color: teal;
+    margin-bottom: 15px;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr 1fr;
-    border: solid 3px teal;
+    border: solid 3px white;
     align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .title-table-div {
-    border-right: solid 3px teal;
+    border-right: solid 3px white;
     height: 100%;
 }
 
 .title-table {
     height: 100%;
     margin: 0px;
-    font-size: 18px;
+    font-size: 25px;
+    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +29,7 @@
 }
 
 .description-table-div {
-    border-right: solid 3px teal;
+    border-right: solid 3px white;
     height: 100%;
 }
 
@@ -34,17 +41,18 @@
     justify-content: center;
     align-items: center;
     margin-left: 10px;
+    margin-right: 5px;
 }
 
 .price-table-div {
-    border-right: solid 3px teal;
+    border-right: solid 3px white;
     height: 100%;
 }
 
 .price-table {
     height: 100%;
     margin: 0px;
-    font-size: 18px;
+    font-size: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,12 +64,10 @@
 }
 
 .img-table {
-    width: 75px;
+    width: 100px;
     height: 100%;
-    margin: 0px;
-    font-size: 18px;
+    margin: 7px 0px 7px 33.5%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 10px;
 }
