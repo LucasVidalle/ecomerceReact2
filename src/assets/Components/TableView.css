@@ -3,17 +3,18 @@
 }
 
 .table-view {
-    background-color: teal;
+    background-color: black;
+    color: white;
     margin-bottom: 15px;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr 1fr;
-    border: solid 3px white;
+    border: solid 3px teal;
     align-items: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .title-table-div {
-    border-right: solid 3px white;
+    border-right: solid 3px teal;
     height: 100%;
 }
 
@@ -29,7 +30,7 @@
 }
 
 .description-table-div {
-    border-right: solid 3px white;
+    border-right: solid 3px teal;
     height: 100%;
 }
 
@@ -45,7 +46,7 @@
 }
 
 .price-table-div {
-    border-right: solid 3px white;
+    border-right: solid 3px teal;
     height: 100%;
 }
 
